@@ -113,6 +113,8 @@ else:
                 cv2.waitKey(500)
                 counter = counter + 1;
             
+            if 0xFF==ord('q'):
+                break
         else:
             break
     cap.release()
